@@ -1,0 +1,26 @@
+.fa-solid {
+    font-family: "Font Awesome 6 Free";
+}
+
+.header-logo {
+    cursor: pointer;
+    justify-content: center;
+    display: flex;
+    margin-top: 15px;
+}
+
+.nav-bar {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.location-london {
+    display: flex;
+    justify-content: center; 
+}
+
+.main-title {
+    front-weight: 700;
+
+}
