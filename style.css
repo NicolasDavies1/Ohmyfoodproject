@@ -1,4 +1,4 @@
-.body  {
+body  {
     margin: 0px;
 }
 
@@ -164,6 +164,8 @@
     display:inline-block;
     border: 5px solid var(#fff);
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+    text-decoration: none;
+    color: black;
 }
 
 .card-group {
