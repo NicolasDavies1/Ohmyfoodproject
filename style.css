@@ -1,3 +1,7 @@
+.body  {
+    margin: 0px;
+}
+
 .fa-solid {
     font-family: "Font Awesome 6 Free";
 }
@@ -209,4 +213,17 @@
     display: flex;
     align-items: flex-start;
     
+}
+
+.footer {
+    background-color:black; 
+    padding: 20px;
+    display: flex;
+    align-items: start;
+}
+
+.footer-list {
+    list-style: none;
+    color: #fff;
+    padding: 10px;
 }
