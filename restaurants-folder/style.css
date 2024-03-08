@@ -1,5 +1,7 @@
-body  {
-    margin: 0px;
+.main-container {
+    margin: auto;
+    box-sizing: border-box;
+    width: 375px;
 }
 
 .fa-solid {
@@ -23,7 +25,7 @@ body  {
     margin: auto;
     display: flex;
     justify-content: center;
-    padding-bottom: 20px;
+    text-decoration: none;
 }
 
 .location-london {
@@ -119,11 +121,11 @@ body  {
 }
 
 .how-it-works {
-   display: flex;
-   justify-content: center;
-   align-items: center;
-   flex-direction: column;
-   gap: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 35px;
 
 }
 
@@ -136,7 +138,7 @@ body  {
 }
 
 .fa-mobile-screen-button::before {
-    content:"/f3cd";
+    content: "/f3cd";
     margin-right: 15px;
 }
 
@@ -151,17 +153,17 @@ body  {
 }
 
 .card-col {
-    display:flex;
-    flex-direction:column;
-    gap:30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
     padding: 30px;
 }
 
 .card {
     background-color: white;
-    border-radius:20px;
+    border-radius: 20px;
     overflow: hidden;
-    display:inline-block;
+    display: inline-block;
     border: 5px solid var(#fff);
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
     text-decoration: none;
@@ -171,18 +173,18 @@ body  {
 .card-group {
     display: flex;
     gap: 30px;
-    flex-wrap:wrap;
+    flex-wrap: wrap;
     justify-content: center;
 }
 
 .restaurant-list {
     margin-bottom: 40px;
     padding: 30px;
-    border-radius:20px;
+    border-radius: 20px;
 }
 
 .card-title {
-    margin:0px;
+    margin: 0px;
     font-size: 16px;
     padding: 10px;
     text-decoration: none;
@@ -191,7 +193,7 @@ body  {
 }
 
 .card-subtitle {
-    margin:0px;
+    margin: 0px;
     padding: 0px 0px 5px 15px;
     text-decoration: none;
 }
@@ -214,11 +216,11 @@ body  {
     width: 100%;
     display: flex;
     align-items: flex-start;
-    
+
 }
 
 .footer {
-    background-color:black; 
+    background-color: black;
     padding: 20px;
     display: flex;
     align-items: start;
@@ -227,7 +229,8 @@ body  {
 .footer-list {
     list-style: none;
     color: #fff;
-    padding: 10px;
+    padding: 0px 0px 5px 0px;
+    font-size: 20px;
 }
 
 .back-arrow {
@@ -235,6 +238,84 @@ body  {
     display: inline-flex;
     align-items: center;
     justify-content: space-between;
-    font-size: 40px;
-    padding: 40px;
+    font-size: 35px;
+    padding: 15px 15px 10px 10px;
+}
+
+.black-arrow {
+    color: black;
+}
+
+
+.top-picture {
+    object-fit: cover;
+    width: 100%;
+    height: 200px;
+}
+
+.top-picture-card {
+    display: flex;
+
+}
+
+.food-card {
+    background-color: white;
+    border-radius: 20px;
+    overflow: hidden;
+    display: inline-block;
+    border: 5px solid var(--White, #FFF);
+    box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.restaurant-container {
+    display: flex;
+    background-color: #FFF;
+    flex-direction: column;
+    gap: 20px;
+    align-items: flex-start;
+    border-radius: 40px 40px 0px 0px;
+}
+
+.restaurant-title {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    font-family: Shrikhand;
+    font-size: 28px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 41px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.portion-title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+
+}
+
+.main-card {
+    width: 375px height: 1387px top: 283px border-radius: 40px, 40px, 0px, 0px box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
+}
+
+.top-logo {
+    font-family: Shrikhand;
+    font-size: 30px;
+    font-style: italic;
+    font-weight: 400;
+    text-align: center;
+    color: black;
+    padding: 0px 40px;
+}
+
+.footer-logo {
+    color: #fff;
+    font-size: 30px;
+    font-family: Shrikhand;
+    font-weight: 400;
+    text-align: center;
+    padding: 0px 0px 0px 0px;
 }
