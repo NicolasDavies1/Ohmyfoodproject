@@ -4,62 +4,57 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/restaurants-folder/style.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
         integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
         crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
-        rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Shrikhand&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@300;1,300;1,400;1,500;1,700;1&family=Shrikhand&display=swap"
         rel="stylesheet">
     <title>OhMyFood</title>
 </head>
 
-<body class="main-container">
-    <div class="nav-bar">
+<body>
+    <nav class="nav-bar section">
         <a href="index.html">
             <img class="header-logo" src="./images/logo/ohmyfood.png" alt="ohmyfood logo">
         </a>
-    </div>
-    <div class="location-london bg-color-gray">
+    </nav>
+    <section class="bg-color-dark">
         <i class="fa-solid fa-location-dot"> Islington, London</i>
-    </div>
-    <div class="opening-bold">
-        <h3 class="bold-title">Book the meal you want</h3>
-    </div>
-    <div class="text-detail">
-        <h3>Discover out carefully selected high-end restaurants</h3>
+    </section>
+    <section class="bg-color-gray section">
+        <h1 class="bold-title title" class="opening-bold">Book the meal you want</h1>
+        <p class="text-detail">Discover out carefully selected high-end restaurants</p>
+        <div class="explore">
+            <a class="button" href="#">Explore our restaurants</a>
+    </section>
+    <section class="section">
+        <h2 class="title">How it works</h2>
 
-    </div>
-    <div class="explore">
-        <a class="explore-button" href="#">Explore our restaurants</a>
-    </div>
-    <article class="how-it-works">
-        <div class="HIW-title HIW-background">
-            <h2>How it works</h2>
-        </div>
+        <ol class="list-group">
+            <li class="list-group-item"><i class="fa-solid fa-mobile-screen-button fa-mobile-alt::before"> Choose a restaurant</i></li>
+            <li><i class="fa-solid fa-list-ul">Build your meal</i></li>
+            <li><i class="fa-solid fa-store fa-store::before">Enjoy your meal at the restaurant</i></li>
+        </ol>
         <div class="HIW-cards HIW-group">
             <circle class="HIW-circle">1</circle>
-            <i class="fa-solid fa-mobile-screen-button fa-mobile-alt::before" ::before> Choose a restaurant</i>
+            
         </div>
-        <div class="HIW-cards HIW-group">
+        <div class="-cards -group">
             <circle class="HIW-circle">2</circle>
-            <i class="fa-solid fa-list-ul">Build your meal</i>
+            
         </div>
         <div class="HIW-cards HIW-group">
             <circle class="HIW-circle">3</circle>
-            <i class="fa-solid fa-store fa-store::before">Enjoy your meal at the restaurant</i>
+            
         </div>
-    </article>
-    <article class="restaurant-list">
+    </section>
+    <section class="bg-color-gray">
         <h2 class="restaurant-title">Restaurants</h2>
-        <div class="card-col"></div>
+
         <div class="card-group">
             <a class="card" href="./restaurants-folder/kitchen-west.html">
                 <img src="./images/restaurants/Kitchen-west.jpg" alt="Picture taken of a dish from Kitchen West">
@@ -69,9 +64,6 @@
                     <div class="card-heart"><i class="fa-regular fa-heart"></i></div>
                 </div>
             </a>
-        </div>
-        <div class="card-col"></div>
-        <div class="card-group">
             <a class="card" href="./restaurants-folder/elderflower.html">
                 <img src="./images/restaurants/Elderflower.jpg" alt="Picture taken of a dish from Kitchen West">
                 <div class="card-content">
@@ -80,9 +72,6 @@
                     <div class="card-heart"><i class="fa-regular fa-heart"></i></div>
                 </div>
             </a>
-        </div>
-        <div class="card-col"></div>
-        <div class="card-group">
             <a class="card" href="./restaurants-folder/shoreditch-canteen.html">
                 <img src="./images/restaurants/Shoreditch-Canteen.jpg" alt="Picture taken of a dish from Kitchen West">
                 <div class="card-content">
@@ -91,9 +80,6 @@
                     <div class="card-heart"><i class="fa-regular fa-heart"></i></div>
                 </div>
             </a>
-        </div>
-        <div class="card-col"></div>
-        <div class="card-group">
             <a class="card" href="./restaurants-folder/the-bay-leaf.html">
                 <img src="./images/restaurants/The-bay-leaf.jpg" alt="Picture taken of a dish from Kitchen West">
                 <div class="card-content">
@@ -102,8 +88,9 @@
                     <div class="card-heart"><i class="fa-regular fa-heart"></i></div>
                 </div>
             </a>
+
         </div>
-    </article>
+    </section>
     <footer class="footer">
         <ul class="footer-list">
             <h1 class="footer-logo">Ohmyfood</h1>

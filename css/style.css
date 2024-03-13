@@ -1,7 +1,5 @@
-.main-container {
-    margin: auto;
-    box-sizing: border-box;
-    width: 375px;
+html {
+    font-family: "Roboto" , sans-serif
 }
 
 .fa-solid {
@@ -28,13 +26,6 @@
     text-decoration: none;
 }
 
-.location-london {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 10px;
-}
-
 .opening-bold {
     justify-content: center;
     align-items: center;
@@ -55,16 +46,17 @@
     font-weight: 700;
 }
 
-.explore-button {
+.button {
     background-color: #fff;
     padding: 11px 19px;
     border-radius: 25px;
     border: 2px solid;
     font-weight: 700;
-    background-color: plum;
     color: white;
     text-decoration: none;
     width: 175px;
+    background: linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+
 }
 
 .explore {
@@ -84,7 +76,7 @@
     padding-left: 50px;
 }
 
-.HIW-cards {
+.list-cards {
     background-color: white;
     border-radius: 25px;
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
@@ -108,7 +100,7 @@
     margin-right: 15px;
 }
 
-.HIW-group {
+.list-group {
     background-color: white;
     justify-content: center;
     display: flex;
@@ -120,14 +112,7 @@
     background-color: white;
 }
 
-.how-it-works {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 35px;
 
-}
 
 .icon-padding {
     margin: 10px;
@@ -152,13 +137,6 @@
     margin-right: 15px;
 }
 
-.card-col {
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
-    padding: 30px;
-}
-
 .card {
     background-color: white;
     border-radius: 20px;
@@ -177,11 +155,6 @@
     justify-content: center;
 }
 
-.restaurant-list {
-    margin-bottom: 40px;
-    padding: 30px;
-    border-radius: 20px;
-}
 
 .card-title {
     margin: 0px;
@@ -229,7 +202,7 @@
 .footer-list {
     list-style: none;
     color: #fff;
-    padding: 0px 0px 5px 0px;
+    padding: 0 0px 5px 0px;
     font-size: 20px;
 }
 
@@ -240,12 +213,8 @@
     justify-content: space-between;
     font-size: 35px;
     padding: 15px 15px 10px 10px;
-}
-
-.black-arrow {
     color: black;
 }
-
 
 .top-picture {
     object-fit: cover;
@@ -267,7 +236,7 @@
     box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
 }
 
-.restaurant-container {
+.container {
     display: flex;
     background-color: #FFF;
     flex-direction: column;
@@ -276,7 +245,7 @@
     border-radius: 40px 40px 0px 0px;
 }
 
-.restaurant-title {
+.title {
     display: flex;
     justify-content: space-between;
     width: 100%;
@@ -290,16 +259,13 @@
     
 }
 
-.portion-title {
+.sub-title {
     font-family: "Roboto", sans-serif;
     font-weight: 400;
     font-style: normal;
 
 }
 
-.main-card {
-    width: 375px height: 1387px top: 283px border-radius: 40px, 40px, 0px, 0px box-shadow: 0px 3px 15px 0px rgba(0, 0, 0, 0.10);
-}
 
 .top-logo {
     font-family: Shrikhand;
@@ -318,4 +284,8 @@
     font-weight: 400;
     text-align: center;
     padding: 0px 0px 0px 0px;
+}
+
+body {
+    margin: 0;
 }
