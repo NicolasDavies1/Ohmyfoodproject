@@ -34,7 +34,6 @@ html {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: gray;
 }
 
 .bold-title {
@@ -58,7 +57,6 @@ html {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: gray;
     padding-bottom: 50px;
 }
 

@@ -51,8 +51,41 @@ a {
   color: black;
 }
 
-.blue {
-  color: blue;
+.bg-color-dark {
+  background-color: #EAEAEA;
+}
+
+.bg-color-gray {
+  background-color: #F6F6F6;
+}
+
+.bg-color-white {
+  background-color: #FFFFFF;
+}
+
+.button {
+  background: background linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+}
+
+.button {
+  background: background linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 10px;
+  width: 180px;
+}
+
+.text-center {
+  text-align: center;
+  align-items: center;
+}
+
+.text-decoration {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
 }
 
 /*# sourceMappingURL=css.map */

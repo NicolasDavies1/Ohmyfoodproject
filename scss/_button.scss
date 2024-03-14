@@ -1,3 +1,8 @@
 .button {
-    background: background linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
-  }
+  background: background linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+  display: flex;
+  justify-content: center;
+  border-radius: 25px;
+  padding: 10px;
+  width: 180px;
+}
