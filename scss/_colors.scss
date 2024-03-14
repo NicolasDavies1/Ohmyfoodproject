@@ -1,11 +1,18 @@
 .bg-color-dark {
-
+    background-color: #EAEAEA;
 }
 
 .bg-color-gray {
+   background-color: #F6F6F6;
 
 }
 
-.blue {
-    color: $blue;
+.bg-color-white {
+    background-color:#FFFFFF ;
+}
+
+$buttoncolor: background linear-gradient(193.33deg, #9356DC -11.44%, #FF79DA 123.93%);
+
+.button {
+    background: $buttoncolor;
 }
